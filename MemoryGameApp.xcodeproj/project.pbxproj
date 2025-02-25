@@ -45,6 +45,21 @@
 			path = MemoryGameAppUITests;
 			sourceTree = "<group>";
 		};
+		0CD590B72D6D652600BA71BA /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0CD590B82D6D653100BA71BA /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CD590B92D6D653C00BA71BA /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +90,9 @@
 		0CD590812D6D64B500BA71BA = {
 			isa = PBXGroup;
 			children = (
+				0CD590B92D6D653C00BA71BA /* Views */,
+				0CD590B82D6D653100BA71BA /* Models */,
+				0CD590B72D6D652600BA71BA /* ViewModels */,
 				0CD5908C2D6D64B500BA71BA /* MemoryGameApp */,
 				0CD5909D2D6D64B700BA71BA /* MemoryGameAppTests */,
 				0CD590A72D6D64B700BA71BA /* MemoryGameAppUITests */,
@@ -109,6 +127,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				0CD5908C2D6D64B500BA71BA /* MemoryGameApp */,
+				0CD590B72D6D652600BA71BA /* ViewModels */,
+				0CD590B82D6D653100BA71BA /* Models */,
+				0CD590B92D6D653C00BA71BA /* Views */,
 			);
 			name = MemoryGameApp;
 			packageProductDependencies = (
